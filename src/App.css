@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #0059ff;
+}
+
+#quote-card{
+    background: #fff;
+    width: 40rem;
+    margin: 10rem auto;
+    padding: 3rem;
+    border-radius: 5px;
+}
+
+#text{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: bold;
+}
+
+#author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    font-family: bold;
+}
+
+#change-quote{
+    background: #808080;
+    border: none;
+    color: #fff;
+    padding: .7rem 1rem;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+#change-quote:hover{
+    opacity: 0.9;
+}
